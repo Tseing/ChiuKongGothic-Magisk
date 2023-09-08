@@ -1,0 +1,6 @@
+id=chiukonggothicfontspackage
+name=秋空󠄁黑體（繁）+ 思源黑體（简）+ 遍黑體
+version=20230907
+versionCode=1
+author=lxgw (github.com/lxgw), Tseing(github.com/Tseing)
+description=基於思源黑體的中文印刷體風格字體家族專案，秋空󠄁黑體用於顯示舊字形，使用思源黑體补足简化字，遍黑體补足缺字。

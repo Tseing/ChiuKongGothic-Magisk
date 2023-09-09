@@ -1356,7 +1356,7 @@
         <font weight="800" style="normal">ChiuKongGothic-CL-w7.otf</font>
         <font weight="900" style="normal">ChiuKongGothic-CL-w9.otf</font>
     </family>
-    <family lang="zh-Hant">
+    <family lang="zh-Hant,zh-Bopo">
         <font weight="100" style="normal">ChiuKongGothic-CL-w2.otf</font>
         <font weight="200" style="normal">ChiuKongGothic-CL-w2.otf</font>
         <font weight="300" style="normal">ChiuKongGothic-CL-w3.otf</font>

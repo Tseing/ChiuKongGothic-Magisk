@@ -33,35 +33,34 @@
         <font weight="400" style="italic">EmptyFont-Italic.ttf</font>
         <font weight="500" style="normal">EmptyFont-Medium.ttf</font>
         <font weight="500" style="italic">EmptyFont-MediumItalic.ttf</font>
-        <font weight="900" style="normal">EmptyFont-Black.ttf</font>
-        <font weight="900" style="italic">EmptyFont-BlackItalic.ttf</font>
         <font weight="700" style="normal">EmptyFont-Bold.ttf</font>
         <font weight="700" style="italic">EmptyFont-BoldItalic.ttf</font>
-   </family>
-    <!-- lxgw 注：其次调用自定义字体，自定义字体将在 CJK 部分再次调用 -->
+        <font weight="900" style="normal">EmptyFont-Black.ttf</font>
+        <font weight="900" style="italic">EmptyFont-BlackItalic.ttf</font>
+    </family>
+    <!-- Tseing 注：调用自定义西文字体 -->
     <family>
-        <font weight="100" style="normal">ChiuKongGothic-CL-w2.otf</font>
-        <font weight="200" style="normal">ChiuKongGothic-CL-w2.otf</font>
-        <font weight="300" style="normal">ChiuKongGothic-CL-w3.otf</font>
-        <font weight="400" style="normal">ChiuKongGothic-CL-w4.otf</font>
-        <font weight="500" style="normal">ChiuKongGothic-CL-w5.otf</font>
-        <font weight="600" style="normal">ChiuKongGothic-CL-w5.otf</font>
-        <font weight="700" style="normal">ChiuKongGothic-CL-w7.otf</font>
-        <font weight="800" style="normal">ChiuKongGothic-CL-w7.otf</font>
-        <font weight="900" style="normal">ChiuKongGothic-CL-w9.otf</font>
-   </family>
-   <family>
-        <font weight="100" style="normal">SourceHanSansCN-w2.otf</font>
-        <font weight="200" style="normal">SourceHanSansCN-w2.otf</font>
-        <font weight="300" style="normal">SourceHanSansCN-w3.otf</font>
-        <font weight="400" style="normal">SourceHanSansCN-w4.otf</font>
-        <font weight="500" style="normal">SourceHanSansCN-w5.otf</font>
-        <font weight="600" style="normal">SourceHanSansCN-w5.otf</font>
-        <font weight="700" style="normal">SourceHanSansCN-w7.otf</font>
-        <font weight="800" style="normal">SourceHanSansCN-w7.otf</font>
-        <font weight="900" style="normal">SourceHanSansCN-w9.otf</font>
-   </family>
-    <family name="sans-serif">
+        <font weight="100" style="normal">Lato-Hairline.ttf</font>
+        <font weight="200" style="normal">Lato-Thin.ttf</font>
+        <font weight="300" style="normal">Lato-Light.ttf</font>
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="500" style="normal">Lato-Medium.ttf</font>
+        <font weight="600" style="normal">Lato-Semibold.ttf</font>
+        <font weight="700" style="normal">Lato-Bold.ttf</font>
+        <font weight="800" style="normal">Lato-Heavy.ttf</font>
+        <font weight="900" style="normal">Lato-Black.ttf</font>
+        <font weight="100" style="italic">Lato-HairlineItalic.ttf</font>
+        <font weight="200" style="italic">Lato-ThinItalic.ttf</font>
+        <font weight="300" style="italic">Lato-LightItalic.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
+        <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
+        <font weight="600" style="italic">Lato-SemiboldItalic.ttf</font>
+        <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+        <font weight="800" style="italic">Lato-HeavyItalic.ttf</font>
+        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
+    </family>
+    <!-- Tseing 注：调用用于 fallback 的西文字体 -->
+    <family>
         <font weight="100" style="normal">Roboto-Regular.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />
@@ -152,14 +151,12 @@
           <axis tag="wdth" stylevalue="100" />
           <axis tag="wght" stylevalue="900" />
         </font>
-   </family>
-
-
-    <!-- lxgw 注：屏蔽 Condensed 及 Serif 字体以提高覆盖率 -->
+    </family>
+    <!-- lxgw 注：屏蔽 Condensed 字体以提高覆盖率 -->
     <alias name="sans-serif-condensed" to="sans-serif" />
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300" />
     <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" />
-    <alias name="serif" to="sans-serif" />
+    <!-- <alias name="serif" to="sans-serif" /> -->
     <alias name="serif-bold" to="serif" weight="700" />
     <alias name="times" to="serif" />
     <alias name="times new roman" to="serif" />
@@ -264,7 +261,7 @@
       </font>
     </family>
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300" />
-    <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" />
+    <alias name="sans-serif-condensed-medium" to="sans-serif-condensed" weight="500" /> -->
 
     <family name="serif">
         <font weight="400" style="normal" postScriptName="NotoSerif">NotoSerif-Regular.ttf</font>
@@ -280,7 +277,7 @@
     <alias name="baskerville" to="serif" />
     <alias name="goudy" to="serif" />
     <alias name="fantasy" to="serif" />
-    <alias name="ITC Stone Serif" to="serif" /> -->
+    <alias name="ITC Stone Serif" to="serif" />
 
     <family name="monospace">
         <font weight="400" style="normal">DroidSansMono.ttf</font>
@@ -1344,6 +1341,88 @@
     <family>
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
+
+    <!-- lxgw 注：CJK 部分首先调用西文字体 -->
+    <family lang="zh-Hans">
+        <font weight="100" style="normal">Lato-Hairline.ttf</font>
+        <font weight="200" style="normal">Lato-Thin.ttf</font>
+        <font weight="300" style="normal">Lato-Light.ttf</font>
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="500" style="normal">Lato-Medium.ttf</font>
+        <font weight="600" style="normal">Lato-Semibold.ttf</font>
+        <font weight="700" style="normal">Lato-Bold.ttf</font>
+        <font weight="800" style="normal">Lato-Heavy.ttf</font>
+        <font weight="900" style="normal">Lato-Black.ttf</font>
+        <font weight="100" style="italic">Lato-HairlineItalic.ttf</font>
+        <font weight="200" style="italic">Lato-ThinItalic.ttf</font>
+        <font weight="300" style="italic">Lato-LightItalic.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
+        <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
+        <font weight="600" style="italic">Lato-SemiboldItalic.ttf</font>
+        <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+        <font weight="800" style="italic">Lato-HeavyItalic.ttf</font>
+        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
+    </family>
+    <family lang="zh-Hant,zh-Bopo">
+        <font weight="100" style="normal">Lato-Hairline.ttf</font>
+        <font weight="200" style="normal">Lato-Thin.ttf</font>
+        <font weight="300" style="normal">Lato-Light.ttf</font>
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="500" style="normal">Lato-Medium.ttf</font>
+        <font weight="600" style="normal">Lato-Semibold.ttf</font>
+        <font weight="700" style="normal">Lato-Bold.ttf</font>
+        <font weight="800" style="normal">Lato-Heavy.ttf</font>
+        <font weight="900" style="normal">Lato-Black.ttf</font>
+        <font weight="100" style="italic">Lato-HairlineItalic.ttf</font>
+        <font weight="200" style="italic">Lato-ThinItalic.ttf</font>
+        <font weight="300" style="italic">Lato-LightItalic.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
+        <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
+        <font weight="600" style="italic">Lato-SemiboldItalic.ttf</font>
+        <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+        <font weight="800" style="italic">Lato-HeavyItalic.ttf</font>
+        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
+    </family>
+    <family lang="ja">
+        <font weight="100" style="normal">Lato-Hairline.ttf</font>
+        <font weight="200" style="normal">Lato-Thin.ttf</font>
+        <font weight="300" style="normal">Lato-Light.ttf</font>
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="500" style="normal">Lato-Medium.ttf</font>
+        <font weight="600" style="normal">Lato-Semibold.ttf</font>
+        <font weight="700" style="normal">Lato-Bold.ttf</font>
+        <font weight="800" style="normal">Lato-Heavy.ttf</font>
+        <font weight="900" style="normal">Lato-Black.ttf</font>
+        <font weight="100" style="italic">Lato-HairlineItalic.ttf</font>
+        <font weight="200" style="italic">Lato-ThinItalic.ttf</font>
+        <font weight="300" style="italic">Lato-LightItalic.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
+        <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
+        <font weight="600" style="italic">Lato-SemiboldItalic.ttf</font>
+        <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+        <font weight="800" style="italic">Lato-HeavyItalic.ttf</font>
+        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
+    </family>
+    <family lang="ko">
+        <font weight="100" style="normal">Lato-Hairline.ttf</font>
+        <font weight="200" style="normal">Lato-Thin.ttf</font>
+        <font weight="300" style="normal">Lato-Light.ttf</font>
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="500" style="normal">Lato-Medium.ttf</font>
+        <font weight="600" style="normal">Lato-Semibold.ttf</font>
+        <font weight="700" style="normal">Lato-Bold.ttf</font>
+        <font weight="800" style="normal">Lato-Heavy.ttf</font>
+        <font weight="900" style="normal">Lato-Black.ttf</font>
+        <font weight="100" style="italic">Lato-HairlineItalic.ttf</font>
+        <font weight="200" style="italic">Lato-ThinItalic.ttf</font>
+        <font weight="300" style="italic">Lato-LightItalic.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
+        <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
+        <font weight="600" style="italic">Lato-SemiboldItalic.ttf</font>
+        <font weight="700" style="italic">Lato-BoldItalic.ttf</font>
+        <font weight="800" style="italic">Lato-HeavyItalic.ttf</font>
+        <font weight="900" style="italic">Lato-BlackItalic.ttf</font>
+    </family>
     <!-- lxgw 注：自定义 CJK 字体 -->
     <family lang="zh-Hans">
         <font weight="100" style="normal">ChiuKongGothic-CL-w2.otf</font>
@@ -1685,5 +1764,5 @@
     <family>
         <font weight="400" style="normal">Plangothic-P2.ttf</font>
     </family>
-    <!-- lxgw 注：增加对「遍黑体」的支持 （终）--> 
+    <!-- lxgw 注：增加对「遍黑体」的支持 （终）-->
 </familyset>
